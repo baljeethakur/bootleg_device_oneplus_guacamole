@@ -37,3 +37,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus7Pro-user 10 QKQ1.190716.003 1909110008 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+TARGET_PICK_BOOTANIMATION := "6"
+BOOTLEGGERS_BUILD_TYPE := Shishufied
+
+# Maintainer Prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.bootleggers.maintainer= The Knight
